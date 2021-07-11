@@ -24,21 +24,17 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
-**😍Hi %firstname% Welcome to RED X Bot😍**
+✦You Must Join Our Channel to Search a Movie😇
 
-You Must Join Our Channel to Use Our Bot Service😇
+✧(Movie Search කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇)
 
-Bot ව භාවිතා කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇
+✦You Will Recieve a Message Saying "❌Unsupported Message type."😒 Just Ignore It😌
 
-Channel Link👉 https://t.me/redx414news
+✧(ඔයාලට "❌Unsupported Message type." කියල Error එකක් පෙන්නයි😒 ඒක එච්චර ගනන් ගන්න එපා😌)
 
-You will see this message even after joining🙂Just Ignore It😥
+✦Click the Search Button Below to Find the Movie You Want😊
 
-Join උනාට පස්සෙත් මේ මැසේජ් එක පේනව🙂ඒක ගනන් ගන්න එපා😥
-
-Click the Search Button Below to Find the Movie You Want😊
-
-ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊
+✧(ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊)
 """
 
 SHARE_BUTTON_TEXT = 'You Can Get Movies/TV Series or Games by using {username}😍'
