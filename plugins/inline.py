@@ -49,7 +49,7 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"{emoji.FILE_FOLDER} Results"
+        switch_pm_text = f"{emoji.FILE_FOLDER} Newly Uploaded Movies"
         if string:
             switch_pm_text += f" for {string}"
 
@@ -60,7 +60,7 @@ async def answer(bot, query):
                            next_offset=str(next_offset))
     else:
 
-        switch_pm_text = f'{emoji.CROSS_MARK} No results'
+        switch_pm_text = f'{emoji.CROSS_MARK} We Do not Have the Movie that You are Looking for'
         if string:
             switch_pm_text += f' for "{string}"'
 
