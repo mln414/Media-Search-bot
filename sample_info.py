@@ -7,6 +7,7 @@ BOT_TOKEN = '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
 USERBOT_STRING_SESSION = ''
 
 # Bot settings
+MAX_RESULTS = 10
 CACHE_TIME = 300
 USE_CAPTION_FILTER = False
 
@@ -29,4 +30,4 @@ Here you can search files in inline mode. Just press follwing buttons and start 
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
-INVITE_MSG = 'Please join @.... to use this bot'
+INVITE_MSG = 'You Must Join @.... Channel to use this bot'
