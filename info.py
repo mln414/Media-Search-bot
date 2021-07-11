@@ -30,11 +30,23 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm Media Search bot**
+**😍Hi %firstname% Welcome to RED X Bot😍**
 
-Here you can search files in inline mode. Just press following buttons and start searching.
+You Must Join Our Channel to Use Our Bot Service😇
+
+Bot ව භාවිතා කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇
+
+Channel Link👉 https://t.me/redx414news
+
+You will see this message even after joining🙂Just Ignore It😥
+
+Join උනාට පස්සෙත් මේ මැසේජ් එක පේනව🙂ඒක ගනන් ගන්න එපා😥
+
+Click the Search Button Below to Find the Movie You Want😊
+
+ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊
 """
 
 START_MSG = environ.get('START_MSG', default_start_msg)
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
-INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
+INVITE_MSG = environ.get('You Must Join @.... Channel to use this bot')
