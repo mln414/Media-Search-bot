@@ -48,5 +48,5 @@ Click the Search Button Below to Find the Movie You Want😊
 """
 
 START_MSG = environ.get('START_MSG', default_start_msg)
-SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
+SHARE_BUTTON_TEXT = 'You Can Get Movies/TV Series or Games by using {username}😍'
 INVITE_MSG = environ.get('You Must Join @.... Channel to use this bot')
