@@ -52,12 +52,12 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**😍Hi %firstname% Welcome to RED X Bot😍**\n\nYou Must Join Our Channel to Use Our Bot Service😇\n\nBot ව භාවිතා කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇\n\nChannel Link👉 https://t.me/redx414news\n\nYou will see this message even after joining🙂Just Ignore It😥\n\nJoin උනාට පස්සෙත් මේ මැසේජ් එක පේනව🙂ඒක ගනන් ගන්න එපා😥\n\nClick the Search Button Below to Find the Movie You Want😊\n\nඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊",
+            "value": "**Hi, I'm Media Search bot**\n\nHere you can search files in inline mode. Just press following buttons and start searching.",
             "required": false
         },
         "INVITE_MSG": {
             "description": "Auth channel invitation message",
-            "value": "You Must Join @.... Channel to use this bot",
+            "value": "Please join @.... to use this bot",
             "required": false
         },
         "USE_CAPTION_FILTER": {
