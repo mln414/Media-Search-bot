@@ -41,5 +41,5 @@ Click the Search Button Below to Find the Movie You Want😊
 ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊
 """
 
-SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
+SHARE_BUTTON_TEXT = 'You Can Get Movies/TV Series or Games by using {username}😍'
 INVITE_MSG = 'You Must Join @.... Channel to use this bot'
