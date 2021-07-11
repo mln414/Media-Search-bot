@@ -57,7 +57,7 @@
         },
         "INVITE_MSG": {
             "description": "Auth channel invitation message",
-            "value": "You Must Join @.... Channel to",
+            "value": "You Must Join @.... Channel to use this bot",
             "required": false
         },
         "USE_CAPTION_FILTER": {
