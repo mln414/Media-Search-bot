@@ -12,14 +12,14 @@ logger = logging.getLogger(__name__)
 cache_time = 0 if AUTH_USERS or AUTH_CHANNEL else CACHE_TIME
 
 
-@Client.on_inline_query(filters.user(AUTH_USERS) if AUTH_USERS else None)
+@Client.on_inline_query(filters.user(AUTH_USERS) if AUTH_USERS else Subscribe Now)
 async def answer(bot, query):
     """Show search results for given inline query"""
 
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You have to subscribe channel',
+                           switch_pm_text='❤️🙊You Must Subscribe Our Channel🙊❤️',
                            switch_pm_parameter="subscribe")
         return
 
