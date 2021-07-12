@@ -11,6 +11,9 @@ logger = logging.getLogger(__name__)
 @Client.on_message(filters.command('start'))
 async def start(bot, message):
     """Start command handler"""
+    if len(message.command) > 1 and message.command[1] == 'subscribe':
+        await message.reply(INVITE_MSG)
+    else:
         buttons = [[
             InlineKeyboardButton('👉 Tap to Search 👈', switch_inline_query_current_chat=''),
         ]]
@@ -28,7 +31,7 @@ async def channel_info(bot, message):
     else:
         raise ValueError("Unexpected type of CHANNELS")
 
-    text = '📥 **Indexed channels/groups**\n'
+    text = '📑 **Indexed channels/groups**\n'
     for channel in channels:
         chat = await bot.get_chat(channel)
         if chat.username:
