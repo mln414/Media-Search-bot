@@ -12,7 +12,6 @@ BOT_TOKEN = environ['BOT_TOKEN']
 USERBOT_STRING_SESSION = environ.get('USERBOT_STRING_SESSION')
 
 # Bot settings
-MAX_RESULTS = int(environ.get('MAX_RESULTS', 10))
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
@@ -31,7 +30,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-✦You Must Join Our Channel to Search a Movie😇
+**✦You Must Join Our Channel to Search a Movie😇
 
 ✧(Movie Search කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇)
 
@@ -41,9 +40,9 @@ default_start_msg = """
 
 ✦Click the Search Button Below to Find the Movie You Want😊
 
-✧(ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊)
+✧(ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊)**
 """
 
 START_MSG = environ.get('START_MSG', default_start_msg)
 SHARE_BUTTON_TEXT = 'You Can Get Movies/TV Series or Games by using {username}😍'
-INVITE_MSG = environ.get('You Must Join @.... Channel to use this bot')
+INVITE_MSG = environ.get('Please join @.... to use this bot')
