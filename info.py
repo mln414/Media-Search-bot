@@ -34,9 +34,9 @@ default_start_msg = """
 
 ✧(Movie Search කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇)
 
-✦You Will Recieve a Message Saying "❌Unsupported Message type."😒 Just Ignore It😌
+✦You Will Recieve a Message Saying '❌Unsupported Message type.'😒 Just Ignore It😌
 
-✧(ඔයාලට "❌Unsupported Message type." කියල Error එකක් පෙන්නයි😒 ඒක එච්චර ගනන් ගන්න එපා😌)
+✧(ඔයාලට '❌Unsupported Message type.' කියල Error එකක් පෙන්නයි😒 ඒක එච්චර ගනන් ගන්න එපා😌)
 
 ✦Click the Search Button Below to Find the Movie You Want😊
 
@@ -44,5 +44,14 @@ default_start_msg = """
 """
 
 START_MSG = environ.get('START_MSG', default_start_msg)
-SHARE_BUTTON_TEXT = 'You Can Get Movies/TV Series or Games by using {username}😍'
-INVITE_MSG = environ.get('Please join @.... to use this bot')
+SHARE_BUTTON_TEXT = """
+**🇱🇰 RED X Bot 🇱🇰** 
+
+'You Can Get Movies, TV Series & Games By Using This Bot😊' 
+
+Bot : {username}😍 
+Update Channel : @redx414news 
+Developer : @RedX14
+"""
+
+INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
