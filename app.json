@@ -52,12 +52,12 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**✦You Must Join Our Channel to Search a Movie😇\n\n✧(Movie Search කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇)\n\n✦You Will Recieve a Message Saying '❌Unsupported Message type.'😒 Just Ignore It😌\n\n✧(ඔයාලට '❌Unsupported Message type.' කියල Error එකක් පෙන්නයි😒 ඒක එච්චර ගනන් ගන්න එපා😌)\n\n✦Click the Search Button Below to Find the Movie You Want😊\n\n✧(ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊)**",
+            "value": "**✦You Must Join Our Channel to Search a Movie😇 \n\n✧(Movie Search කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇)\n\n✦You Will Recieve a Message Saying '❌Unsupported Message type.'😒 Just Ignore It😌\n\n✧(ඔයාලට '❌Unsupported Message type.' කියල Error එකක් පෙන්නයි😒 ඒක එච්චර ගනන් ගන්න එපා😌)\n\n✦Click the Search Button Below to Find the Movie You Want😊\n\n✧(ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊)**",
             "required": false
         },
         "INVITE_MSG": {
             "description": "Auth channel invitation message",
-            "value": "★You Must Subscribe Our Channel to Use Me😇</b> \n\n<b>☆මාව භාවිතා කිරීමට කලින් ඔයා අපේ Channel එක Subscribe කරන තියෙන්න ඕන😇</b> \n\n<b>★Click @redx414news to Join Our Channel😊</b> \n\n<b>☆@redx414news ඔබල අපේ Channel එකට Join වෙන්න😊</b> \n\n<b>★After That Hit /start to Restart the Bot🤗</b> \n\n<b>☆ඊට පස්සෙ /start ඔබල Bot Restart කර ගන්න🤗</b>",
+            "value": "**★You Must Subscribe Our Channel to Use Me😌 \n\n☆මාව භාවිතා කිරීමට කලින් ඔයා අපේ Channel එක Subscribe කරන තියෙන්න ඕන😌 \n\n★Click @redx414news to Join Our Channel😊 \n\n☆@redx414news ඔබල අපේ Channel එකට Join වෙන්න😊 \n\n★After That Hit /start to Restart the Bot🤗 \n\n☆ඊට පස්සෙ /start ඔබල Bot Restart කර ගන්න🤗",
             "required": false
         },
         "USE_CAPTION_FILTER": {
