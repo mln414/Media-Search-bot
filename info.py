@@ -54,4 +54,15 @@ Update Channel : @redx414news
 Developer : @RedX14
 """
 
-INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
+INVITE_MSG = environ.get('INVITE_MSG', """
+★You Must Subscribe Our Channel to Use Me😇
+
+☆මාව භාවිතා කිරීමට කලින් ඔයා අපේ Channel එක Subscribe කරන තියෙන්න ඕන😇
+
+★Click @redx414news to Join Our Channel😊
+
+☆@redx414news ඔබල අපේ Channel එකට Join වෙන්න😊
+
+★After That Hit /start to Restart the Bot🤗
+
+☆ඊට පස්සෙ /start ඔබල Bot Restart කර ගන්න🤗</b>""")
