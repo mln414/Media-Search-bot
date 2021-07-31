@@ -23,9 +23,19 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hello {} 
 
-Here you can search files in inline mode. Just press follwing buttons and start searching.
+✦You Must Join Our Channel to Search a Movie😇 
+
+✧(Movie Search කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇) 
+
+✦You Will Recieve a Message Saying '❌Unsupported Message type.'😒 Just Ignore It😌 
+
+✧(ඔයාලට '❌Unsupported Message type.' කියල Error එකක් පෙන්නයි😒 ඒක එච්චර ගනන් ගන්න එපා😌) 
+
+✦Click the Search Button Below to Find the Movie You Want😊 
+
+✧(ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊)**
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
