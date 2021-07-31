@@ -57,7 +57,7 @@
         },
         "INVITE_MSG": {
             "description": "Auth channel invitation message",
-            "value": "Please join @redx414news to use this bot",
+            "value": "★You Must Subscribe Our Channel to Use Me😇</b> \n\n<b>☆මාව භාවිතා කිරීමට කලින් ඔයා අපේ Channel එක Subscribe කරන තියෙන්න ඕන😇</b> \n\n<b>★Click @redx414news to Join Our Channel😊</b> \n\n<b>☆@redx414news ඔබල අපේ Channel එකට Join වෙන්න😊</b> \n\n<b>★After That Hit /start to Restart the Bot🤗</b> \n\n<b>☆ඊට පස්සෙ /start ඔබල Bot Restart කර ගන්න🤗</b>",
             "required": false
         },
         "USE_CAPTION_FILTER": {
