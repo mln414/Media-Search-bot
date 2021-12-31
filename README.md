@@ -8,7 +8,7 @@
 
 ### Watch this video to create bot - https://youtu.be/dsuTn4qV2GA
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/redx414/Media-Search-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mln414/Media-Search-bot)
 
 
 ### Hard Way
