@@ -30,39 +30,36 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**✦You Must Join Our Channel to Search a Movie😇
+**Hello Unknown** 👋
 
-✧(Movie Search කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇)
+**I'm RED X Bot 2.0** 🤖 **I Can Find You Any Movie, TV Series or Game Instantly** 🔍 **Follow the Steps**🔻
 
-✦You Will Recieve a Message Saying '❌Unsupported Message type.'😒 Just Ignore It😌
+❐ First of All Join RED X News & Updates  @redx_414_news Channel.
+❐ Click 'Tap to Search' to Use the Bot's Inline Method to Find a Movie.
+❐ To Find TV Series & Games, Use the Main Menu.
+❐ Ignore 'Want to create your own b...' Message. It's Irrelevant.
 
-✧(ඔයාලට '❌Unsupported Message type.' කියල Error එකක් පෙන්නයි😒 ඒක එච්චර ගනන් ගන්න එපා😌)
 
-✦Click the Search Button Below to Find the Movie You Want😊
+**මම තමයි RED X Bot 2.0**🤖 **ඔබට අවශ්‍ය ඕනෑම චිත්‍රපටයක්, කතාමාලාවක් හෝ වීඩියෝ ක්‍රීඩාවක් සොයා දෙන්න මට පුලුවන්** 🔍 **පහත පියවර අනුගමනය කරන්න**🔻
 
-✧(ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊)**
+❐ ඉස්සෙල්ලම RED X News & Updates චැනල් එකට එකතු වෙන්න.
+❐ 'Tap to Search' කියන එක ඔබල චිත්‍රපට ලබා ගත හැක.
+❐ කතාමාලා සහ පරිගණක ක්‍රීඩා ලබා ගැනීමට ප්‍රධාන මෙනුව භාවිතා කරන්න.
+❐ 'Want to create your own b...' කියන මැසේජ් එක ගනන් ගන්න එපා. ඒකෙන් වැඩක් නැහැ.
 """
 
 START_MSG = environ.get('START_MSG', default_start_msg)
 SHARE_BUTTON_TEXT = """
-**🇱🇰 RED X Bot 🇱🇰** 
+**🇱🇰 RED X Bot 2.0 🇱🇰**
 
-'You Can Get Movies, TV Series & Games By Using This Bot😊' 
+**You Can Find Any Movie, TV Series or Game By Using Me ♥️**
 
-Bot : {username}😍 
-Update Channel : @redx414news 
-Developer : @RedX14
+**Bot:** **@redx414bot** 🤖
+**Updates Channel:** *@redx_414_news** 🔰
+**Admin:** **@RedX14** 👨‍💻
 """
 
 INVITE_MSG = environ.get('INVITE_MSG', """
-★You Must Subscribe Our Channel to Use Me😇
+**You Haven't Join Our Channel**‼️ **Click On RED X News & Updates @redx_414_bot to Connect With Us** ♥️
 
-☆මාව භාවිතා කිරීමට කලින් ඔයා අපේ Channel එක Subscribe කරන තියෙන්න ඕන😇
-
-★Click @redx414news to Join Our Channel😊
-
-☆@redx414news ඔබල අපේ Channel එකට Join වෙන්න😊
-
-★After That Hit /start to Restart the Bot🤗
-
-☆ඊට පස්සෙ /start ඔබල Bot Restart කර ගන්න🤗</b>""")
+**ඔයා අපේ චැනල් එකට එකතු වෙලා නෑ**‼️ **RED X News & Updates @redx_414_news කියන එක ඔබල චැනල් එකට සෙට් වෙන්න** ♥️""")
