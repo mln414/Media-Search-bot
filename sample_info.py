@@ -23,19 +23,22 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
-**Hello {} 
+**Hello Unknown** 👋
 
-✦You Must Join Our Channel to Search a Movie😇 
+**I'm RED X Bot 2.0** 🤖 **I Can Find You Any Movie, TV Series or Game Instantly** 🔍 **Follow the Steps**🔻
 
-✧(Movie Search කිරීමට නම් ඔයා අපේ Channel එකට Join වෙලා තිබීම අත්‍යවශ්‍ය වේ😇) 
+❐ First of All Join RED X News & Updates  @redx_414_news Channel.
+❐ Click 'Tap to Search' to Use the Bot's Inline Method to Find a Movie.
+❐ To Find TV Series & Games, Use the Main Menu.
+❐ Ignore 'Want to create your own b...' Message. It's Irrelevant.
 
-✦You Will Recieve a Message Saying '❌Unsupported Message type.'😒 Just Ignore It😌 
 
-✧(ඔයාලට '❌Unsupported Message type.' කියල Error එකක් පෙන්නයි😒 ඒක එච්චර ගනන් ගන්න එපා😌) 
+**මම තමයි RED X Bot 2.0**🤖 **ඔබට අවශ්‍ය ඕනෑම චිත්‍රපටයක්, කතාමාලාවක් හෝ වීඩියෝ ක්‍රීඩාවක් සොයා දෙන්න මට පුලුවන්** 🔍 **පහත පියවර අනුගමනය කරන්න**🔻
 
-✦Click the Search Button Below to Find the Movie You Want😊 
-
-✧(ඔයාට අවශ්‍ය Movie එක ලබා ගැනීමට Search Button එක Click කරන්න😊)**
+❐ ඉස්සෙල්ලම RED X News & Updates චැනල් එකට එකතු වෙන්න.
+❐ 'Tap to Search' කියන එක ඔබල චිත්‍රපට ලබා ගත හැක.
+❐ කතාමාලා සහ පරිගණක ක්‍රීඩා ලබා ගැනීමට ප්‍රධාන මෙනුව භාවිතා කරන්න.
+❐ 'Want to create your own b...' කියන මැසේජ් එක ගනන් ගන්න එපා. ඒකෙන් වැඩක් නැහැ.
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
