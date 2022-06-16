@@ -21,7 +21,6 @@ async def start(bot, message):
             InlineKeyboardButton('Updates Channel🔰', url=f'https://t.me/redx_414_news'),
             InlineKeyboardButton('Contact an Admin👨‍💻', url=f'https://t.me/RedX14'),
             ],[
-            InlineKeyboardButton('Share 🗣', url = 't.me/share/url?url=' + quote(SHARE_BUTTON_TEXT)),
             InlineKeyboardButton('Rate Us ⭐️', url=f'https://t.me/redx_414_news'),
             ],[
             InlineKeyboardButton('👉 Tap to Search 👈', switch_inline_query_current_chat=''),
