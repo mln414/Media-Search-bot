@@ -1,6 +1,5 @@
 import os
 import logging
-from urllib.parse import quote
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
