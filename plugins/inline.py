@@ -80,7 +80,7 @@ def get_reply_markup(username, query):
     buttons = [
         [
             InlineKeyboardButton('Search Again🔎', switch_inline_query_current_chat=query),
-            InlineKeyboardButton('Share Bot✅', url=url),
+            InlineKeyboardButton('Share Bot🗣', url=url),
         ]
     ]
     return InlineKeyboardMarkup(buttons)
