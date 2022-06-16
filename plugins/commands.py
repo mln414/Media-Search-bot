@@ -17,6 +17,12 @@ async def start(bot, message):
         await message.reply(INVITE_MSG)
     else:
         buttons = [[
+            InlineKeyboardButton('Updates Channel🔰', url=f'https://t.me/redx_414_news'),
+            InlineKeyboardButton('Contact an Admin👨‍💻', url=f'https://t.me/RedX14'),
+            ],[
+            InlineKeyboardButton('Share 🗣', url=f'https://t.me/redx_414_news'),
+            InlineKeyboardButton('Rate Us ⭐️', url=f'https://t.me/redx_414_news'),
+            ],[
             InlineKeyboardButton('👉 Tap to Search 👈', switch_inline_query_current_chat=''),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
