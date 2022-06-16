@@ -55,7 +55,7 @@ SHARE_BUTTON_TEXT = """
 **You Can Find Any Movie, TV Series or Game By Using Me ♥️**
 
 **Bot:** **@redx414bot** 🤖
-**Updates Channel:** *@redx_414_news** 🔰
+**Updates Channel:** **@redx_414_news** 🔰
 **Admin:** **@RedX14** 👨‍💻
 """
 
