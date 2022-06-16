@@ -11,7 +11,7 @@ from utils import Media, unpack_new_file_id
 logger = logging.getLogger(__name__)
 
 
-@Client.on_message(filters.command('search'))
+@Client.on_message(filters.command('start'))
 async def start(bot, message):
     """Start command handler"""
     if len(message.command) > 1 and message.command[1] == 'subscribe':
@@ -21,7 +21,7 @@ async def start(bot, message):
             InlineKeyboardButton('Updates Channel🔰', url=f'https://t.me/redx_414_news'),
             InlineKeyboardButton('Contact an Admin👨‍💻', url=f'https://t.me/RedX14'),
             ],[
-            InlineKeyboardButton('Share 🗣', url = 't.me/share/url?url=' + quote(SHARE_BUTTON_TEXT.format(username=username))),
+            InlineKeyboardButton('Share 🗣', url = 't.me/share/url?url=' + quote(SHARE_BUTTON_TEXT)),
             InlineKeyboardButton('Rate Us ⭐️', url=f'https://t.me/redx_414_news'),
             ],[
             InlineKeyboardButton('👉 Tap to Search 👈', switch_inline_query_current_chat=''),
