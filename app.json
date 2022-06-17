@@ -57,7 +57,7 @@
         },
         "INVITE_MSG": {
             "description": "Auth channel invitation message",
-            "value": "**You Haven't Join Our Channel**‼️ **Click On RED X News & Updates to Connect With Us** ♥️ \n\n**ඔයා අපේ චැනල් එකට එකතු වෙලා නෑ**‼️ **RED X News & Updates @redx_414_news කියන එක ඔබල චැනල් එකට සෙට් වෙන්න** ♥️",
+            "value": "**You Haven't Join Our Channel**‼️ **Click On RED X News & Updates to Connect With Us** ♥️ \n\n**ඔයා අපේ චැනල් එකට එකතු වෙලා නෑ**‼️ **RED X News & Updates කියන එක ඔබල චැනල් එකට සෙට් වෙන්න** ♥️",
             "required": false
         },
         "USE_CAPTION_FILTER": {
