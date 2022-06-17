@@ -23,11 +23,11 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
-**Hello Unknown** 👋
+**Hello {user_mention}** 👋
 
 **I'm RED X Bot 2.0** 🤖 **I Can Find You Any Movie, TV Series or Game Instantly** 🔍 **Follow the Steps**🔻
 
-❐ First of All Join RED X News & Updates  @redx_414_news Channel.
+❐ First of All Join RED X News & Updates Channel.
 ❐ Click 'Tap to Search' to Use the Bot's Inline Method to Find a Movie.
 ❐ To Find TV Series & Games, Use the Main Menu.
 ❐ Ignore 'Want to create your own b...' Message. It's Irrelevant.
