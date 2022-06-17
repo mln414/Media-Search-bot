@@ -60,6 +60,6 @@ SHARE_BUTTON_TEXT = """
 """
 
 INVITE_MSG = environ.get('INVITE_MSG', """
-**You Haven't Join Our Channel**‼️ **Click On RED X News & Updates @redx_414_bot to Connect With Us** ♥️
+**You Haven't Join Our Channel**‼️ **Click On RED X News & Updates to Connect With Us** ♥️
 
-**ඔයා අපේ චැනල් එකට එකතු වෙලා නෑ**‼️ **RED X News & Updates @redx_414_news කියන එක ඔබල චැනල් එකට සෙට් වෙන්න** ♥️""")
+**ඔයා අපේ චැනල් එකට එකතු වෙලා නෑ**‼️ **RED X News & Updates කියන එක ඔබල චැනල් එකට සෙට් වෙන්න** ♥️""")
