@@ -1,10 +1,11 @@
 import os
 import logging
+from urllib.parse import quote
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from info import START_MSG, CHANNELS, ADMINS, INVITE_MSG
+from info import START_MSG, SHARE_BUTTON_TEXT, CHANNELS, ADMINS, INVITE_MSG
 from utils import Media, unpack_new_file_id
 
 logger = logging.getLogger(__name__)
@@ -20,6 +21,7 @@ async def start(bot, message):
             InlineKeyboardButton('Updates Channel🔰', url=f'https://t.me/redx_414_news'),
             InlineKeyboardButton('Contact an Admin👨‍💻', url=f'https://t.me/RedX14'),
             ],[
+            InlineKeyboardButton('Share 🗣', url = 't.me/share/url?url=' + quote(SHARE_BUTTON_TEXT)),
             InlineKeyboardButton('Rate Us ⭐️', url=f'https://t.me/tlgrmcbot?start=redx414bot-review'),
             ],[
             InlineKeyboardButton('👉 Tap to Search 👈', switch_inline_query_current_chat=''),
