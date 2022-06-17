@@ -20,7 +20,7 @@ async def start(bot, message):
             InlineKeyboardButton('Updates Channel🔰', url=f'https://t.me/redx_414_news'),
             InlineKeyboardButton('Contact an Admin👨‍💻', url=f'https://t.me/RedX14'),
             ],[
-            InlineKeyboardButton('Rate Us ⭐️', url=f'https://t.me/redx_414_news'),
+            InlineKeyboardButton('Rate Us ⭐️', url=f'https://t.me/tlgrmcbot?start=redx414bot-review'),
             ],[
             InlineKeyboardButton('👉 Tap to Search 👈', switch_inline_query_current_chat=''),
         ]]
