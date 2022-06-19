@@ -30,7 +30,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hello {message.from_user.first_name}** 👋
+**Hello Unknown** 👋
 
 **I'm RED X Bot 2.0** 🤖 **I Can Find You Any Movie, TV Series or Game Instantly** 🔍 **Follow the Steps**🔻
 
