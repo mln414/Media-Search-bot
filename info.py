@@ -30,7 +30,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hello {mention}** 👋
+**Hello {message.from_user.first_name}** 👋
 
 **I'm RED X Bot 2.0** 🤖 **I Can Find You Any Movie, TV Series or Game Instantly** 🔍 **Follow the Steps**🔻
 
@@ -60,6 +60,6 @@ SHARE_BUTTON_TEXT = """
 """
 
 INVITE_MSG = environ.get('INVITE_MSG', """
-**You Haven't Join Our Channel**‼️ **Click On RED X News & Updates to Connect With Us** ♥️
+**You Haven't Join Our Channel**‼️ **Click On @redx_414_news to Connect With Us** ♥️
 
-**ඔයා අපේ චැනල් එකට එකතු වෙලා නෑ**‼️ **RED X News & Updates කියන එක ඔබල චැනල් එකට සෙට් වෙන්න** ♥️""")
+**ඔයා අපේ චැනල් එකට එකතු වෙලා නෑ**‼️ **@redx_414_news කියන එක ඔබල චැනල් එකට සෙට් වෙන්න** ♥️""")
