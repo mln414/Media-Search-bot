@@ -27,7 +27,8 @@ async def start(bot, message):
             InlineKeyboardButton('👉 Tap to Search 👈', switch_inline_query_current_chat=''),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply(f"Hello {message.from_user.first_name}" + START_MSG, reply_markup=reply_markup)
+        welcome_text = f"**Hello {message.from_user.first_name}** \n\n"
+        await message.reply(welcome_text + START_MSG, reply_markup=reply_markup)
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
