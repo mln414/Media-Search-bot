@@ -10,7 +10,7 @@ from utils import Media, unpack_new_file_id
 logger = logging.getLogger(__name__)
 
 
-@Client.on_message(filters.command('start'))
+@Client.on_message(filters.command('search'))
 async def start(bot, message):
     """Start command handler"""
     if len(message.command) > 1 and message.command[1] == 'subscribe':
