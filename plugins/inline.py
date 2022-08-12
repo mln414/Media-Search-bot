@@ -83,10 +83,7 @@ def get_reply_markup(username, query):
             InlineKeyboardButton('Share Bot🗣', url=url),
         ]
     ]
-    test_caption += "Thank You For Using Me"
     return InlineKeyboardMarkup(buttons)
-    return test_caption
-
 
 def size_formatter(size):
     """Get size in readable format"""
